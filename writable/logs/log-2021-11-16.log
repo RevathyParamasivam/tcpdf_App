@@ -1,0 +1,85 @@
+CRITICAL - 2021-11-16 07:53:19 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\codeigniter_firstApp\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\codeigniter_firstApp\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\codeigniter_firstApp\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\codeigniter_firstApp\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-16 08:01:39 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\codeigniter_firstApp\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\codeigniter_firstApp\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\codeigniter_firstApp\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\codeigniter_firstApp\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-16 02:24:16 --> Call to undefined function App\Controllers\vew()
+#0 C:\xampp\htdocs\codeigniter_firstApp\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\codeigniter_firstApp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\codeigniter_firstApp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter_firstApp\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-16 02:25:01 --> Call to undefined function App\Controllers\vew()
+#0 C:\xampp\htdocs\codeigniter_firstApp\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\codeigniter_firstApp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\codeigniter_firstApp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter_firstApp\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-16 02:25:18 --> Call to undefined function App\Controllers\vew()
+#0 C:\xampp\htdocs\codeigniter_firstApp\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\codeigniter_firstApp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\codeigniter_firstApp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter_firstApp\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-16 02:25:48 --> Call to undefined function App\Controllers\vew()
+#0 C:\xampp\htdocs\codeigniter_firstApp\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\codeigniter_firstApp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\codeigniter_firstApp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter_firstApp\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-16 05:49:57 --> syntax error, unexpected token "<"
+#0 C:\xampp\htdocs\codeigniter_firstApp\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\codeigniter_firstApp\system\Common.php(1097): CodeIgniter\View\View->render('Main_View', Array, true)
+#2 C:\xampp\htdocs\codeigniter_firstApp\app\Controllers\Home.php(10): view('Main_View', Array)
+#3 C:\xampp\htdocs\codeigniter_firstApp\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\codeigniter_firstApp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter_firstApp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter_firstApp\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-16 05:50:11 --> Array to string conversion
+#0 C:\xampp\htdocs\codeigniter_firstApp\app\Views\Main_View.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\codeigniter_firstApp\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter_firstApp\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter_firstApp\system\Common.php(1097): CodeIgniter\View\View->render('Main_View', Array, true)
+#4 C:\xampp\htdocs\codeigniter_firstApp\app\Controllers\Home.php(10): view('Main_View', Array)
+#5 C:\xampp\htdocs\codeigniter_firstApp\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\codeigniter_firstApp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\codeigniter_firstApp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter_firstApp\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-16 05:55:50 --> Undefined variable $name
+#0 C:\xampp\htdocs\codeigniter_firstApp\app\Views\Main_View.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\codeigniter_firstApp\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter_firstApp\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter_firstApp\system\Common.php(1097): CodeIgniter\View\View->render('Main_View', Array, true)
+#4 C:\xampp\htdocs\codeigniter_firstApp\app\Controllers\UserLogin.php(9): view('Main_View')
+#5 C:\xampp\htdocs\codeigniter_firstApp\system\CodeIgniter.php(824): App\Controllers\UserLogin->index()
+#6 C:\xampp\htdocs\codeigniter_firstApp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserLogin))
+#7 C:\xampp\htdocs\codeigniter_firstApp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter_firstApp\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-16 23:36:36 --> Class "App\Models\MainModel" not found
+#0 C:\xampp\htdocs\codeigniter_firstApp\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\codeigniter_firstApp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\codeigniter_firstApp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter_firstApp\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-16 23:37:11 --> Class "App\Models\MainModel" not found
+#0 C:\xampp\htdocs\codeigniter_firstApp\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\codeigniter_firstApp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\codeigniter_firstApp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter_firstApp\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-16 23:45:55 --> Class "App\Models\Main_Model" not found
+#0 C:\xampp\htdocs\codeigniter_firstApp\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\codeigniter_firstApp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\codeigniter_firstApp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter_firstApp\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
