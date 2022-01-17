@@ -1,8 +1,10 @@
 Sentences that contain all letters commonly used in a language
 --------------------------------------------------------------
-
+அந்திமாலையில், அலைகள்
 This file is UTF-8 encoded.
-
+Tamil
+------------------------
+உள்ளீட்டு கருவியைத் தேர்வுசெய்து
 Czech (cz)
 ---------
 

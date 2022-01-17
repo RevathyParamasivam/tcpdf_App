@@ -1,0 +1,24 @@
+CRITICAL - 2022-01-17 01:06:21 --> file_get_contents(data/utf8test.txt): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 74)
+#1 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(74): file_get_contents('data/utf8test.t...', false)
+#2 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->printpdf()
+#3 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-17 01:06:21 --> file_get_contents(data/utf8test.txt): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 74)
+#1 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(74): file_get_contents('data/utf8test.t...', false)
+#2 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->printpdf()
+#3 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-17 01:07:54 --> file_get_contents(\vendor\tecnickcom\tcpdf\examples\utf8test.txt): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 74)
+#1 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(74): file_get_contents('\\vendor\\tecnick...', false)
+#2 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->printpdf()
+#3 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
