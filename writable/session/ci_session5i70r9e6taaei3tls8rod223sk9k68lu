@@ -1,0 +1,15 @@
+__ci_last_regenerate|i:1643814047;_ci_previous_url|s:48:"http://localhost/codeigniter_firstApp/index.php/";status|s:645:"Unable to locate the following email attachment: uploads/Image not set<br />Unable to send email using PHP SMTP. Your server might not be configured to send mail using this method.<br /><pre>Date: Wed, 2 Feb 2022 08:55:06 -0600
+From: &lt;test_work_mail@yahoo.com&gt;
+Return-Path: &lt;test_work_mail@yahoo.com&gt;
+To: test_work_mail@yahoo.com
+Cc: bennyjarvishsixbakshara@gmail.com
+Subject: =?UTF-8?Q?Test?=
+Reply-To: &lt;test_work_mail@yahoo.com&gt;
+User-Agent: CodeIgniter
+X-Sender: test_work_mail@yahoo.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;61fa9b4aaa6617.87867250@yahoo.com&gt;
+Mime-Version: 1.0
+
+</pre>";__ci_vars|a:1:{s:6:"status";s:3:"new";}

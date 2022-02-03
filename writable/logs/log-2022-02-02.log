@@ -1,0 +1,229 @@
+CRITICAL - 2022-02-02 02:23:56 --> fopen(): Remote host file access not supported, file://./uploads/example_001.pdf
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(): Remote...', 'C:\\xampp\\htdocs...', 1842)
+#1 C:\xampp\htdocs\tcpdf_App\vendor\tecnickcom\tcpdf\include\tcpdf_static.php(1842): fopen('file://./upload...', 'wb')
+#2 C:\xampp\htdocs\tcpdf_App\vendor\tecnickcom\tcpdf\tcpdf.php(7749): TCPDF_STATIC::fopenLocal('file://./upload...', 'wb')
+#3 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(126): TCPDF->Output('./uploads/examp...', 'F')
+#4 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->printpdf()
+#5 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-02 02:24:29 --> fopen(): Remote host file access not supported, file://./uploads/
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(): Remote...', 'C:\\xampp\\htdocs...', 1842)
+#1 C:\xampp\htdocs\tcpdf_App\vendor\tecnickcom\tcpdf\include\tcpdf_static.php(1842): fopen('file://./upload...', 'wb')
+#2 C:\xampp\htdocs\tcpdf_App\vendor\tecnickcom\tcpdf\tcpdf.php(7749): TCPDF_STATIC::fopenLocal('file://./upload...', 'wb')
+#3 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(126): TCPDF->Output('./uploads/', 'F')
+#4 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->printpdf()
+#5 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-02 02:24:52 --> fopen(file:///uploads/): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(file:///u...', 'C:\\xampp\\htdocs...', 1842)
+#1 C:\xampp\htdocs\tcpdf_App\vendor\tecnickcom\tcpdf\include\tcpdf_static.php(1842): fopen('file:///uploads...', 'wb')
+#2 C:\xampp\htdocs\tcpdf_App\vendor\tecnickcom\tcpdf\tcpdf.php(7749): TCPDF_STATIC::fopenLocal('file:///uploads...', 'wb')
+#3 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(126): TCPDF->Output('/uploads/', 'F')
+#4 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->printpdf()
+#5 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-02 02:25:03 --> fopen(): Remote host file access not supported, file://./uploads/
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(): Remote...', 'C:\\xampp\\htdocs...', 1842)
+#1 C:\xampp\htdocs\tcpdf_App\vendor\tecnickcom\tcpdf\include\tcpdf_static.php(1842): fopen('file://./upload...', 'wb')
+#2 C:\xampp\htdocs\tcpdf_App\vendor\tecnickcom\tcpdf\tcpdf.php(7749): TCPDF_STATIC::fopenLocal('file://./upload...', 'wb')
+#3 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(126): TCPDF->Output('./uploads/', 'F')
+#4 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->printpdf()
+#5 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-02 02:39:19 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\tcpdf_App\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(26): CodeIgniter\HTTP\Files\UploadedFile->move('./uploads/')
+#2 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-02 02:57:14 --> Path cannot be empty
+#0 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(23): file_get_contents('')
+#1 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-02 02:58:01 --> Path cannot be empty
+#0 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(23): file_get_contents('')
+#1 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-02 02:58:45 --> Path cannot be empty
+#0 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(23): file_get_contents('')
+#1 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-02 02:59:59 --> Path cannot be empty
+#0 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(29): file_get_contents('')
+#1 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-02 03:00:42 --> Path cannot be empty
+#0 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(29): file_get_contents('')
+#1 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-02 03:44:48 --> Path cannot be empty
+#0 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(31): file_get_contents('')
+#1 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-02 03:45:59 --> Path cannot be empty
+#0 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(23): file_get_contents('')
+#1 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-02 04:37:12 --> Undefined array key "memberimage"
+#0 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->printpdf()
+#2 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-02 08:43:30 --> Undefined array key "attach"
+#0 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-02 08:44:01 --> Undefined array key "attach"
+#0 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-02 08:44:03 --> Undefined array key "attach"
+#0 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-02 08:44:17 --> Undefined array key "attach"
+#0 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-02 08:44:34 --> Undefined array key "attach"
+#0 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-02 08:45:15 --> Undefined array key "attach"
+#0 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-02 08:46:34 --> Undefined array key "attach"
+#0 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-02 08:47:27 --> Undefined array key "attach"
+#0 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-02 08:49:13 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-02-02 08:50:22 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+CRITICAL - 2022-02-02 08:50:22 --> There is no data to insert.
+#0 C:\xampp\htdocs\tcpdf_App\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\tcpdf_App\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\tcpdf_App\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(93): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-02-02 08:53:39 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+CRITICAL - 2022-02-02 08:53:39 --> There is no data to insert.
+#0 C:\xampp\htdocs\tcpdf_App\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\tcpdf_App\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\tcpdf_App\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(93): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-02-02 08:55:06 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+ERROR - 2022-02-02 08:55:06 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2022-02-02 08:55:06 --> Duplicate entry '0' for key 'PRIMARY'
+#0 C:\xampp\htdocs\tcpdf_App\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `at...', 0)
+#1 C:\xampp\htdocs\tcpdf_App\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `at...')
+#2 C:\xampp\htdocs\tcpdf_App\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `at...')
+#3 C:\xampp\htdocs\tcpdf_App\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `at...', Array, false)
+#4 C:\xampp\htdocs\tcpdf_App\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\tcpdf_App\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\tcpdf_App\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\tcpdf_App\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(93): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#10 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-02-02 09:01:23 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2022-02-02 09:01:23 --> Duplicate entry '0' for key 'PRIMARY'
+#0 C:\xampp\htdocs\tcpdf_App\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `at...', 0)
+#1 C:\xampp\htdocs\tcpdf_App\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `at...')
+#2 C:\xampp\htdocs\tcpdf_App\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `at...')
+#3 C:\xampp\htdocs\tcpdf_App\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `at...', Array, false)
+#4 C:\xampp\htdocs\tcpdf_App\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\tcpdf_App\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\tcpdf_App\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\tcpdf_App\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(93): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#10 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-02-02 09:13:35 --> Email: sendWithSmtp throwed fsockopen(): Unable to connect to tls://smtp.gmail.com:465 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond)
+CRITICAL - 2022-02-02 23:40:57 --> Undefined array key 2
+#0 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 123)
+#1 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

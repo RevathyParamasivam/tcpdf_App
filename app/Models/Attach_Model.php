@@ -4,9 +4,9 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class Main_Model extends Model
+class Attach_Model extends Model
 {
-    protected $table      = 'firstTable';
+    protected $table      = 'attachment';
     protected $primaryKey = 'id';
 
     protected $useAutoIncrement = true;
@@ -14,7 +14,7 @@ class Main_Model extends Model
     // protected $returnType     = 'array';
     // protected $useSoftDeletes = true;
 
-    protected $allowedFields = ['name', 'email','subject','message','status','attachment','cc','bcc'];
+    protected $allowedFields = ['id_mail', 'file_name','status'];
 
     // protected $useTimestamps = false;
     // protected $createdField  = 'created_at';
