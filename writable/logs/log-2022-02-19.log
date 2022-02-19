@@ -1,0 +1,124 @@
+CRITICAL - 2022-02-19 03:28:49 --> Undefined array key "trids"
+#0 C:\xampp\htdocs\tcpdf_App\vendor\tecnickcom\tcpdf\tcpdf.php(19677): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 19677)
+#1 C:\xampp\htdocs\tcpdf_App\vendor\tecnickcom\tcpdf\tcpdf.php(18427): TCPDF->closeHTMLTagHandler(Array, 42, 0, 19.702639)
+#2 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(142): TCPDF->writeHTML('\r\n            <...', true, 0, true, 0)
+#3 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->printpdf()
+#4 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-19 03:38:57 --> Undefined variable $cellspacingx
+#0 C:\xampp\htdocs\tcpdf_App\vendor\tecnickcom\tcpdf\tcpdf.php(18258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18258)
+#1 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(148): TCPDF->writeHTML('\r\n            \r...', true, 0, true, 0)
+#2 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->printpdf()
+#3 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-19 04:15:26 --> The use statement with non-compound name 'TCPDF' has no effect
+#0 C:\xampp\htdocs\tcpdf_App\system\Autoloader\Autoloader.php(264): CodeIgniter\Debug\Exceptions->errorHandler(2, 'The use stateme...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\tcpdf_App\system\Autoloader\Autoloader.php(264): include_once()
+#2 C:\xampp\htdocs\tcpdf_App\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\tcpdf_App\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\support\\myp...')
+#4 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(125): CodeIgniter\Autoloader\Autoloader->loadClass('App\\support\\myp...')
+#5 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->printpdf()
+#6 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-19 04:16:40 --> require_once(tcpdf_include.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\tcpdf_App\app\support\mypdf.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(tc...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\tcpdf_App\app\support\mypdf.php(2): require_once()
+#2 C:\xampp\htdocs\tcpdf_App\system\Autoloader\Autoloader.php(264): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\tcpdf_App\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\tcpdf_App\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\support\\myp...')
+#5 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(125): CodeIgniter\Autoloader\Autoloader->loadClass('App\\support\\myp...')
+#6 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->printpdf()
+#7 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-19 04:17:47 --> The use statement with non-compound name 'TCPDF' has no effect
+#0 C:\xampp\htdocs\tcpdf_App\system\Autoloader\Autoloader.php(264): CodeIgniter\Debug\Exceptions->errorHandler(2, 'The use stateme...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\tcpdf_App\system\Autoloader\Autoloader.php(264): include_once()
+#2 C:\xampp\htdocs\tcpdf_App\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\tcpdf_App\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\support\\myp...')
+#4 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(125): CodeIgniter\Autoloader\Autoloader->loadClass('App\\support\\myp...')
+#5 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->printpdf()
+#6 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-19 05:15:22 --> Class "App\Controllers\TCPDF_FONTS" not found
+#0 C:\xampp\htdocs\tcpdf_App\vendor\tecnickcom\tcpdf\tcpdf.php(3617): App\Controllers\mypdf->Header()
+#1 C:\xampp\htdocs\tcpdf_App\vendor\tecnickcom\tcpdf\tcpdf.php(3284): TCPDF->setHeader()
+#2 C:\xampp\htdocs\tcpdf_App\vendor\tecnickcom\tcpdf\tcpdf.php(3196): TCPDF->startPage('', '', false)
+#3 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(126): TCPDF->AddPage()
+#4 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->printpdf()
+#5 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-19 05:18:03 --> Class "App\Controllers\TCPDF_FONTS" not found
+#0 C:\xampp\htdocs\tcpdf_App\vendor\tecnickcom\tcpdf\tcpdf.php(3617): App\Controllers\mypdf->Header()
+#1 C:\xampp\htdocs\tcpdf_App\vendor\tecnickcom\tcpdf\tcpdf.php(3284): TCPDF->setHeader()
+#2 C:\xampp\htdocs\tcpdf_App\vendor\tecnickcom\tcpdf\tcpdf.php(3196): TCPDF->startPage('', '', false)
+#3 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(126): TCPDF->AddPage()
+#4 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->printpdf()
+#5 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-19 06:19:13 --> syntax error, unexpected token "*"
+#0 C:\xampp\htdocs\tcpdf_App\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('/Home/printpdf')
+#1 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('/Home/printpdf')
+#2 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-19 06:20:31 --> Undefined variable $data
+#0 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 138)
+#1 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->printpdf()
+#2 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-19 06:27:05 --> Undefined variable $cellspacingx
+#0 C:\xampp\htdocs\tcpdf_App\vendor\tecnickcom\tcpdf\tcpdf.php(18258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18258)
+#1 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(136): TCPDF->writeHTML('\r\n            \r...', true, 0, true, 0)
+#2 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->printpdf()
+#3 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-19 06:36:36 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tcpdf_App\vendor\tecnickcom\tcpdf\tcpdf.php(2468): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 2468)
+#1 C:\xampp\htdocs\tcpdf_App\vendor\tecnickcom\tcpdf\tcpdf.php(2479): TCPDF->getCellHeight(4.2333333333333)
+#2 C:\xampp\htdocs\tcpdf_App\vendor\tecnickcom\tcpdf\tcpdf.php(19921): TCPDF->resetLastH()
+#3 C:\xampp\htdocs\tcpdf_App\vendor\tecnickcom\tcpdf\tcpdf.php(18427): TCPDF->closeHTMLTagHandler(Array, 51, 0, 75.401250888889)
+#4 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(148): TCPDF->writeHTML('\r\n            <...', true, 0, true, 0)
+#5 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->printpdf()
+#6 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-19 06:37:01 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tcpdf_App\vendor\tecnickcom\tcpdf\tcpdf.php(2468): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 2468)
+#1 C:\xampp\htdocs\tcpdf_App\vendor\tecnickcom\tcpdf\tcpdf.php(2479): TCPDF->getCellHeight(4.2333333333333)
+#2 C:\xampp\htdocs\tcpdf_App\vendor\tecnickcom\tcpdf\tcpdf.php(19921): TCPDF->resetLastH()
+#3 C:\xampp\htdocs\tcpdf_App\vendor\tecnickcom\tcpdf\tcpdf.php(18427): TCPDF->closeHTMLTagHandler(Array, 47, 0, 75.401250888889)
+#4 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(148): TCPDF->writeHTML('\r\n            <...', true, 0, true, 0)
+#5 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->printpdf()
+#6 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-19 06:40:55 --> Undefined array key "trids"
+#0 C:\xampp\htdocs\tcpdf_App\vendor\tecnickcom\tcpdf\tcpdf.php(19677): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 19677)
+#1 C:\xampp\htdocs\tcpdf_App\vendor\tecnickcom\tcpdf\tcpdf.php(18427): TCPDF->closeHTMLTagHandler(Array, 52, 0, 137.84292088889)
+#2 C:\xampp\htdocs\tcpdf_App\app\Controllers\Home.php(150): TCPDF->writeHTML('\r\n            <...', true, 0, true, 0)
+#3 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(824): App\Controllers\Home->printpdf()
+#4 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\tcpdf_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tcpdf_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

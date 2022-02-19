@@ -5,6 +5,7 @@ use TCPDF;
 use App\Models\Main_Model;
 use App\Models\Attach_Model;
 
+
 class Home extends BaseController
 {
     public function __construct(){
@@ -121,29 +122,93 @@ class Home extends BaseController
     }
     public function printpdf()
     {
-        $pdf = new TCPDF(PDF_PAGE_ORIENTATION, PDF_UNIT, PDF_PAGE_FORMAT, true, 'utf-8', false);
+        $pdf = new mypdf(PDF_PAGE_ORIENTATION, PDF_UNIT, PDF_PAGE_FORMAT, true, 'utf-8', false);
         $pdf->AddPage();
-        $data=$this->store->findAll();
-        $pdf->SetFont('freeserif', '', 14, '', true);
+        $pdf->Ln(40);
+        $pdf->SetFont('freeserif', '', 12, '', true);
         $output='
-            <table width="100%" cellspacing="5" cellpadding="5">
+            <table width="100%" cellspacing="2" cellpadding="2">
             <tr>
-                <td><img src="https://img.search.brave.com/zmt6hyCqmsUQ_yOU_FuKxPkr_5168ahu5yW9p1urjFg/rs:fit:312:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5X/T094RTVDeHFMREw0/Q05yWDBmcGh3SGFM/USZwaWQ9QXBp"/></td>
+                <td><b>Ref:</b> FO/6/SRD/New Sponsor/Allotment </td>
+                <td style="text-align:right">Tuesday, February 15, 2022</td>
+            </tr>
+            <br>
+            <tr><td><b>To :</b></td></tr>
+            <tr>
+                <td style="width:10%"></td>
                 <td>
-                    <p><b>Name:</b>'.$data[0]['email'].'</p>
-                    <p style="font-family: DejaVu Sans Mono" ><b>Address:</b></p>
-                    <p id="add">revathy'.$data[0]['message'].'</p>
-                    <p><b>City:</b>'.$data[0]['cc'].'</p>
-                    <p style="font-family: bboo">Test Data'.$data[0]['bcc'].'Test Data</p>
-                    <p><b>Pin:</b>'.$data[0]['status'].'</p>
+                    <p>Mr./Ms. Franklin L</p>
+                    <p>No 5/2 Leela Mahal,Justice Ramanujam,Rbi Colony</p>
+                    <p>Thiruvanmiyur,Tamil Nadu (Zone)</p>
+                    <p>India Email: lfranklin121@gmail.com</p>
+                    <p>Ph: 600.141121</p>
                 </td>
-            </tr></table>
+            </tr>
+            <tr><td style="width:100%">Dearly beloved in Christ Jesus,</td></tr>
+            </table>
             ';
             $pdf->WriteHTML($output, true, 0, true, 0);
-            $utf8text='அந்திமாலையில், العربية REVATHY அந்திமாலையில் revathy அந்திமாலையில்';
-            $pdf->Write(5, $utf8text, '', 0, '', false, 0, false, false, 0);
+            //$utf8text='அந்திமாலையில், العربية REVATHY அந்திமாலையில் revathy அந்திமாலையில்';
+            //$pdf->Write(5, $utf8text, '', 0, '', false, 0, false, false, 0);
+            
             $this->response->setContentType('application/pdf');
             $pdf->Output('example_001.pdf', 'I');
+            
     }
     
+}
+
+class mypdf extends TCPDF {
+
+    
+
+
+    //Page header
+    public function Header() {
+        // Logo
+        $this->Image("./assets/img/gems_logo_withtext.png", 11, 9, 40, 27.5);
+        
+        // Title
+        $this->SetFont('BebasNeueBold','',29);
+        $this->SetXY(60, 18);
+        $this->SetTextColor(5, 106, 162);
+        $this->Cell(0, 15, 'GOSPEL ECHOING MISSIONARY SOCIETY (GEMS)', 0, false, 'C', 0, '', 0, false, 'M', 'M');
+
+        $this->SetXY(60, 23);
+        $this->SetFont('MonotypeCoversia','',11);
+        $this->SetTextColor(230, 0,0);
+        $this->Cell(140,5,'Transforming Peoples to Transform Nations',0,1,'C');
+        $this->Ln();
+
+        $this->SetXY(60, 30);
+        $this->SetFont('ArialBold','B',11);
+        $this->SetTextColor(0);
+        $this->Cell(140,10,'GEMS, Sikaria, Indrapuri PO, Dehri On Sone, Rohtas Dist. Bihar 821308',0,1,'C');
+        $this->Ln();
+
+        $this->SetFont('Arial','',11);
+        $this->SetXY(60, 36);
+        $this->Cell(140,10,'+916184 234567 - gems@gemsbihar.org | sponsors@gemsbihar.org',0,1,'C');
+
+        $this->Ln();
+
+        $this->SetFont('Times','I',12);
+        $this->SetXY(10, 33);
+        $this->Cell(45,5,'D. Augustine Jebakumar ',0,1,'L');
+        $this->SetFont('Times','B',12);
+        $this->Cell(45,5,'General Secretary ',0,1,'C');
+        $this->Ln();
+
+
+    }
+
+    // Page footer
+    public function Footer() {
+        // Position at 15 mm from bottom
+        $this->SetY(-15);
+        // Set font
+        $this->SetFont('helvetica', 'I', 8);
+        // Page number
+        $this->Cell(0, 10, 'Page '.$this->getAliasNumPage().'/'.$this->getAliasNbPages(), 0, false, 'C', 0, '', 0, false, 'T', 'M');
+    }
 }

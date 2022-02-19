@@ -677,7 +677,7 @@ class TCPDF {
 	 * @var int[]
 	 * @phpstan-var array{0: int, 1: int, 2: int}
 	 */
-	protected $header_line_color = array(0,0,0);
+	protected $header_line_color = array(255,255,255);
 
 	/**
 	 * Color for footer text (RGB array).
