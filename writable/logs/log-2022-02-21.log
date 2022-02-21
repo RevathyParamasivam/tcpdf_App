@@ -1,0 +1,9 @@
+CRITICAL - 2022-02-21 00:41:05 --> Undefined array key "trids"
+#0 C:\xampp\htdocs\letter_pad\vendor\tecnickcom\tcpdf\tcpdf.php(19677): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 19677)
+#1 C:\xampp\htdocs\letter_pad\vendor\tecnickcom\tcpdf\tcpdf.php(18427): TCPDF->closeHTMLTagHandler(Array, 97, 0, 198.87347055556)
+#2 C:\xampp\htdocs\letter_pad\app\Controllers\Home.php(162): TCPDF->writeHTML('\r\n            <...', true, 0, true, 0)
+#3 C:\xampp\htdocs\letter_pad\system\CodeIgniter.php(824): App\Controllers\Home->printpdf()
+#4 C:\xampp\htdocs\letter_pad\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\letter_pad\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\letter_pad\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
